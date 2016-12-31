@@ -62,12 +62,14 @@
 				]]>
 			</sethelp>
 			<type>interfaces_selection</type>
+   			<multiple>true</multiple>
+			<showvirtualips/>
+			<showips/>
 <!--
 Commented out - it's quite possible the user may have to forward mDNS across loopback if there are local proxies;
 if not this line can go back in.
    <hideinterfaceregex>(loopback)</hideinterfaceregex>
 -->
-      <multiple>true</multiple>
 		</field>
 	</fields>
 	<custom_php_resync_config_command>
