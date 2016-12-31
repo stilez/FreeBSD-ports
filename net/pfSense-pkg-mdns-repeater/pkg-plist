@@ -1,0 +1,5 @@
+pkg/mdns-repeater.xml
+pkg/mdns-repeater.inc
+/etc/inc/priv/mdns-repeater.priv.inc
+%%DATADIR%%/info.xml
+@dir /etc/inc/priv
