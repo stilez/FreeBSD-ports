@@ -1,5 +1,7 @@
 Forwards (re-broadcasts) mDNS packets across interfaces. 
 
-mDNS is used in particular by Apple and other 'bonjour' based products,  for discovery purposes; this package will allow Apple Airplay, Apple printer discovery, and other Apple discovery to work across network segments and between subnets. Additional firewall rulesw are needed in addition; these must be entered in the usual way using the "rules" interface.
+mDNS is used in particular for network discovery purposes by Apple products (sometimes rebranded as Bonjour, Zeroconf, or Airplay), but they don't cross between network segments; they are limited to the local subnet.  This package allows mDNS based servioces such as Apple Airplay, Apple printer discovery, and other Apple discovery to work across network segments and between subnets. Additional firewall rules are usually needed in addition; these must be entered in the usual way using the "Firewall Rules" interface. 
+
+Note that the 'Ahavi' package will also do the same as this and more; however mDNS repeater is much simpler if all that is needed is to forward mDNS packets or use Apple network discovery across network segments.
 
 Package info: https://www.freshports.org/net/mdns-repeater
