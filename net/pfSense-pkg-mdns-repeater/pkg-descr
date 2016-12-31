@@ -1,0 +1,5 @@
+Forwards (re-broadcasts) mDNS packets across interfaces. 
+
+mDNS is used in particular by Apple products (bonjour based) for discovery purposes; this package will allow Apple discovery to work across network segments and between subnets.
+
+Package info: https://www.freshports.org/net/mdns-repeater
