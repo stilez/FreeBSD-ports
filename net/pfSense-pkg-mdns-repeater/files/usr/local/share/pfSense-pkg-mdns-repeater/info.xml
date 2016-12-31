@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>mdns-repeater</name>
+		<descr><![CDATA[Re-broadcasts mDNS packets across network interfaces, in particular used for Apple discovery.]]></descr>
+		<website>https://bitbucket.org/geekman/mdns-repeater</website>
+		<version>%%PKGVERSION%%</version>
+		<configurationfile>mdns-repeater.xml</configurationfile>
+		<pkginfolink>https://www.freshports.org/net/mdns-repeater</pkginfolink>
+	</package>
+</pfsensepkgs>
