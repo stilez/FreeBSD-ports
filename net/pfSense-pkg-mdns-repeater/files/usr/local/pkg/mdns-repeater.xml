@@ -53,14 +53,14 @@
 		<field>
 			<fielddescr>Interfaces</fielddescr>
 			<fieldname>iflist</fieldname>
-			<description>
+			<description>Select the interfaces that mDNS packets will be forwarded (re-broadcast) across.</description>
+			<sethelp>
 				<![CDATA[
-				Select the interfaces that mDNS packets will be forwarded (re-broadcast) across.<br />
-        Any mDFNS discovery packets received on any of the listed interfaces, will be
-        automatically passed to the other listed interfaces, and any replies will also
+        mDFNS discovery packets received on any of the listed interfaces, will be
+        automatically rebroadcast on the other listed interfaces, and any replies will also
         be passed back to all listed interfaces (including the original interface).
 				]]>
-			</description>
+			</sethelp>
 			<type>interfaces_selection</type>
 <!--
 Commented out - it's quite possible the user may have to forward mDNS across loopback if there are local proxies;
